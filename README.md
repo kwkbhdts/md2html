@@ -10,7 +10,7 @@ Drag and drop a markdown file to a batch file.
 The batch file will generate a html file to the directoty of the markdown file.
 
 ### md2html-with-sidebar.bat
-This batch generate "output-with-sidebar.html" which have a sidebar.
+This batch generate a html file which have a sidebar.
 
 Get the below template beforehand.
 ```
@@ -25,4 +25,4 @@ md2html
 ```
 
 ### md2html-github-style.bat
-This batch generate "output-github-style.html" which have the style of github.
+This batch generate a html which have the style of github.
