@@ -4,6 +4,7 @@ default:
 
 job:
   script:
+    - apt update
     - apt install -y git
     - git clone https://gitlab.com/mayoigacraft/easy-pandoc-templates.git
   artifacts:
