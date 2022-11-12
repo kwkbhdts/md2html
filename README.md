@@ -1,5 +1,5 @@
 # md2html
-Utilities of markdown to html convertion.
+Utilities of markdown to html conversion.
 
 ## Pandoc
 Install pandoc.  
