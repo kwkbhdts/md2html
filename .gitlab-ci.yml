@@ -12,10 +12,10 @@ job:
     paths:
       - ./
     exclude:
-      - .git
+      - .git/
       - .gitignore
       - .gitlab-ci.yml
-      - easy-pandoc-templates/.git
-      - easy-pandoc-templates/samples
+      - easy-pandoc-templates/.git/
+      - easy-pandoc-templates/samples/
     expire_in: 1 week
 
