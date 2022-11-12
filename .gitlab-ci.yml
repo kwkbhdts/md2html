@@ -1,0 +1,19 @@
+
+default:
+  image: debian:stable-slim
+
+job:
+  script:
+    - git clone https://gitlab.com/mayoigacraft/easy-pandoc-templates.git
+  artifacts:
+    name: md2html
+    paths:
+      - ./
+    exclude:
+      - .git
+      - .gitignore
+      - .gitlab-ci.yml
+      - easy-pandoc-templates/.git
+      - easy-pandoc-templates/samples
+    expire_in: 1 week
+
