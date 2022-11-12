@@ -4,16 +4,17 @@ default:
 
 job:
   script:
+    - apt update
+    - apt install -y git
     - git clone https://gitlab.com/mayoigacraft/easy-pandoc-templates.git
+    - rm -rf .git
+    - rm .gitignore
+    - rm .gitlab-ci.yml
+    - rm -rf easy-pandoc-templates/.git
+    - rm -rf easy-pandoc-templates/samples
   artifacts:
     name: md2html
     paths:
       - ./
-    exclude:
-      - .git
-      - .gitignore
-      - .gitlab-ci.yml
-      - easy-pandoc-templates/.git
-      - easy-pandoc-templates/samples
     expire_in: 1 week
 
