@@ -1,9 +1,10 @@
 
 default:
-  image: ubuntu:latest
+  image: debian:stable-slim
 
 job:
   script:
+    - apt install -y git
     - git clone https://gitlab.com/mayoigacraft/easy-pandoc-templates.git
   artifacts:
     name: md2html
