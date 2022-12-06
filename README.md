@@ -18,7 +18,7 @@ This batch generate a html file which have a sidebar.
 
 Get the below template beforehand.
 ```
-git clone https://gitlab.com/mayoigacraft/easy-pandoc-templates.git
+git clone https://github.com/kwkbhdts/easy-pandoc-templates.git
 ```
 
 The required structure is below.
